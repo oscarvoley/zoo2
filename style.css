@@ -1,0 +1,121 @@
+/*estilo del cuerpo*/
+body{
+    background-color: rgb(249, 249, 249) ;
+}
+
+/*estilo a los enlaces*/
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: black;
+}
+pre{
+    background: linear-gradient(transparent, rgb(249, 206, 170),transparent);
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    font: oblique bold 120% cursive;
+}
+
+/*estilo al parraafo*/
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*estilo a los titulos*/
+h1{  
+    background: rgb(225, 255, 225);
+    border:6px solid rgb(120, 150, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px darkgrey;
+    font-size: 45;
+    font-family: cursive;
+    height: 90px;    
+}
+h2{
+    text-decoration: underline;
+    font: oblique bold 120% cursive;
+    margin-left: 25px;
+    font-size: 25px;
+}
+h3{
+    text-decoration: underline;
+    font: oblique bold 120% cursive;
+    margin-left: 25px;
+}
+ul{
+    margin-bottom: 50px;
+}
+
+/*Estilo de las imagenes*/
+.contenedor{
+   text-align: center;
+}
+img{
+    width: 200px;
+    align-self: center;
+    margin: 30px;
+    box-shadow: 0 0 0 5px rgba(221, 121, 40, 0.5);
+    text-align: center;
+}
+
+/*parrafo de contacto.html*/
+div#parrafo{
+    width: 90%;
+    display: flex;
+}
+
+/*estilo a la tabla*/
+dl{
+ border-top: solid 5px;
+ border-color: rgb(70, 118, 119);
+ margin-top: 50px;
+}
+dt{
+    text-decoration: underline; 
+    padding-top: 10px;
+}
+
+table{
+    background: rgb(200, 198, 198);
+    width: 100%;
+    
+}
+thead{
+    background: black;
+    color: white;
+}
+
+td{
+    font-weight: bold;
+}
+
+/*Estilo al formulario*/
+form{
+    float: right;
+    padding: 15px;
+    background-color: rgb(192, 188, 188);
+    width: 400px;
+    border-radius: 16px;
+    display: grid;
+    width: 125%;
+    
+}
+input{
+    margin: 5px;
+    gap:3px;
+    color: black;
+    border-radius: 10px;
+    border: 3px solid #777474;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+label{
+    font-weight: bold;
+}

@@ -1,0 +1,82 @@
+/*estilo del cuerpo*/
+body{
+    background-color: rgb(249, 249, 249) ;
+}
+
+/*estilo a los enlaces*/
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color: black;
+}
+pre{
+    background: linear-gradient(transparent, rgb(249, 206, 170),transparent);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    font: oblique bold 120% cursive;    
+}
+
+/*estilo al parrafo*/
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*estilo a las cabeceras*/
+h1{  
+    background: rgb(225, 255, 225);
+    border:6px solid rgb(120, 150, 120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px darkgrey;
+    font-size: 45;
+    font-family: cursive;
+    height: 90px;    
+}
+h2{
+    text-decoration: underline;
+    font: oblique bold 120% cursive;
+    margin-left: 25px;
+    font-size: 25px;
+}
+h3{
+    text-decoration: underline;
+    font: oblique bold 120% cursive;
+}
+
+/*estilo a las tarjetas de los animales*/
+dl{
+ border-top: solid 5px;
+ border-color: rgb(128, 81, 42);
+}
+dt{
+    text-decoration: underline; 
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+dd{
+    text-align: center;
+    margin-left: auto;
+}
+
+img{
+    width: 200px;
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 16px;
+}
+
+div#especies{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(250, 230, 211);
+    margin: 30px;
+    float: left;
+    text-align: center;
+    border-radius: 17px;
+}

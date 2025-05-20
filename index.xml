@@ -17,11 +17,11 @@
         <title>Eventos</title>
         <link>https://oscarvoley.github.io/zoo2/eventos.html</link>
         <description>Informacion de lso eventos del zoo</description>
-        </item>
-        <item>
+    </item>
+    <item>
         <title>AVES</title>
         <link>https://oscarvoley.github.io/zoo2/aves.html</link>
         <description>Noticias de aves e informacion de nuestros amigos</description>
-        </item>
+    </item>
     </channel>
     </rss>

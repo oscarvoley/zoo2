@@ -5,13 +5,6 @@
     <description>Zoo en la costa mediterranea con animales en semilibertad</description>
     <!--  La parte fija opcional  -->
     <language>es-ES</language>
-    <image>
-    <title>Título de la Imagen</title>
-    <url>https://oscarvoley.github.io/zoo2/index.html</url>
-    <link>https://oscarvoley.github.io/zoo2/index.html</link>
-    <width>90</width>
-    <height>36</height>
-    </image>
     <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
     <item>
         <title>Eventos</title>
